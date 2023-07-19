@@ -7,15 +7,9 @@
     <title>@yield('title', 'Laravel App')</title>
 </head>
 <body>
-    <header>
-        @yield('header-section')
-    </header>
     <main>
         @yield('main-section')
     </main>
-    <footer>
-        @yield('footer-section')
-    </footer>
 
     @vite('resources/js/app.js')
 </body>
